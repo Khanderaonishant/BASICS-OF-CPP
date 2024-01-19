@@ -1,0 +1,14 @@
+bool isPalindrome(string& str) {
+   
+    string P = str;
+    reverse(P.begin(), P.end());
+    if (str == P) {
+        
+        return 1;
+    }
+   
+    else {
+        
+        return 0;
+    }
+}
